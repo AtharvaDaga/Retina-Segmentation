@@ -22,7 +22,7 @@ def allowed_file(filename):
 # Home route - shows server status
 @app.route("/")
 def home():
-    return "🔥 API is running on Render Server!"
+    return "API is running on Render Server!"
 
 # Image segmentation function (returns base64 image)
 def segment_image(image_path, mask_path):
