@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retina Blood Vessel Segmentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        img {
+            margin-top: 20px;
+            width: 400px;
+            height: auto;
+            border: 2px solid #ddd;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Retina Blood Vessel Segmentation</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label>Select Retina Image:</label>
+        <input type="file" name="retina_image" required><br><br>
+        
+        <label>Select Mask Image:</label>
+        <input type="file" name="mask_image" required><br><br>
+        
+        <button type="submit">Upload & Segment</button>
+    </form>
+
+    {% if segmented_image %}
+        <h3>Segmented Output:</h3>
+        <img src="{{ segmented_image }}" alt="Segmented Retina">
+    {% endif %}
+</body>
+</html>
