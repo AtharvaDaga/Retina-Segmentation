@@ -30,3 +30,14 @@ This project automates the process using PCA for feature reduction and K-Means c
 - Cloud storage for segmentation history
 - Support segmentation without mask input
 - Improve performance using larger datasets
+
+📤 **Output**
+
+- **System Architecture**
+![System Architecture](assets/system_architecture.png)
+
+- **Image Upload Snapshot**
+![Uploading Retina Image](assets/image_upload.png)
+
+- **Segmented Output**
+![Segmented Retina Image](assets/segmented_output.png)
