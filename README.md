@@ -34,10 +34,13 @@ This project automates the process using PCA for feature reduction and K-Means c
 📤 **Output**
 
 - **System Architecture**
-![System Architecture](assets/system_architecture.png)
+
+![System Architecture](https://github.com/AtharvaDaga/Retina-Segmentation/blob/6da978a01e708c22854fea9376d397e84dfcbab8/system/system%20design.jpg)
 
 - **Image Upload Snapshot**
-![Uploading Retina Image](assets/image_upload.png)
+
+![Uploading Retina Image](https://github.com/AtharvaDaga/Retina-Segmentation/blob/6da978a01e708c22854fea9376d397e84dfcbab8/system/uploading%20of%20the%20images.jpg)
 
 - **Segmented Output**
-![Segmented Retina Image](assets/segmented_output.png)
+
+![Segmented Retina Image](https://github.com/AtharvaDaga/Retina-Segmentation/blob/6da978a01e708c22854fea9376d397e84dfcbab8/static/segmented_output/segmented_image.jpg)
